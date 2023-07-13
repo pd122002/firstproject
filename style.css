@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background: url("./img5.jpg");
+   min-height: 330px;
+    width: 100%;
+} */
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin: 14px 23px;
+    
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    
+}
+/* 
+button{
+    margin-right: 25px;
+} */
+/* .navigation::before{
+    content:" ";
+    background: url("./img5.jpg");
+   min-height: 330px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    
+} */
+.navigation{
+  
+    background: url("./img5.jpg");
+   min-height: 330px;
+    width: 100%;
+    background-repeat: repeat-y;
+}
+ h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+ .greeting .para1{
+    margin: 5px 30%;
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+}
+.greeting{
+    margin-top: 50px;
+}
+section{
+    margin-top: 10px;
+    background-color: #e4d9d9;
+    
+}
+section h2{
+    margin-bottom: 50px;
+}
+section .gallery{
+display: flex;
+width: 100%;
+justify-content: center;
+flex-wrap: wrap;
+
+
+}
+section  .photo{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin-right: 30px;
+    overflow: auto;
+    border-radius: 10px 0px 10px 0;
+    
+}
+ h4{
+    text-align: center;
+    position: sticky;
+    top: 0.1px;
+    background-color: rgb(240, 125, 125);
+}
+.photo img{
+    width: 12em;
+    height: 166px;
+    margin-left: 50px;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.services div{
+   max-width: 400px;
+   min-height: 300px;
+    border: 2px solid black;
+    margin-right: 30px;
+    overflow: auto;
+    border-radius: 10px 0px 10px 0;
+    scrollbar-width: 4px;
+}
+.services p{
+    text-align:justify;
+    margin: 0.3em 1em 0;
+}
+.secondsec{
+    background-color: #a1a798;
+    
+}
+footer{
+    background-color: rgb(208, 214, 237);
+    margin-top: 15px;
+    min-height: 300px;
+}
+footer p{
+margin: 2px 7em ;
+text-align: justify;
+
+}
+footer div{
+    text-align: center;
+
+}
+footer div img{
+    max-width: 6em;
+}
+
